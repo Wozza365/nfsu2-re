@@ -1,6 +1,12 @@
-*ignore-**
-**.exe
-**.suo
-**.ncb
-**.user
-**/Debug/
+# build output: compiled objects, the loader .asi, check results and scratch variants
+/build/
+__pycache__/
+*.pyc
+
+# never commit the game, its files, or Microsoft's compiler
+*.exe
+*.EXE
+*.dll
+*.asi
+*.obj
+*.iso

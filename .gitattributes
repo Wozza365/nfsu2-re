@@ -1,8 +1,4 @@
-* eol=lf
-**.vcproj eol=crlf
-**.sln eol=crlf
-*.jpg binary
+* text=auto
+*.idc text
 *.png binary
-*.gif binary
-*.webp binary
-*.mp4 binary
+*.jpg binary

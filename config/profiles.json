@@ -1,0 +1,7 @@
+{
+  "game": "/O2 /GR- /Gy /GX",
+  "game_noeh": "/O2 /GR- /Gy",
+  "lib_o1": "/O1 /GR- /Gy",
+  "lib_o1_frame": "/O1 /Oy- /GR- /Gy",
+  "game_frame": "/O2 /Oy- /GR- /Gy /GX"
+}

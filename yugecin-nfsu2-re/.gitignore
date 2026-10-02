@@ -1,0 +1,6 @@
+*ignore-**
+**.exe
+**.suo
+**.ncb
+**.user
+**/Debug/

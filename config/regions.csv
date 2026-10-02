@@ -1,0 +1,9 @@
+start,end,label,scope,notes
+0x401000,0x638000,game,decompile,EA game code; 16-byte aligned; VC7.1 3077 /O2
+0x638000,0x6D8000,d3dx,replace,Microsoft D3DX static library (unaligned; likely the 13.10.4035 objects)
+0x6D8000,0x6F0000,unclassified_cpp,decompile,aligned C++ block; not yet identified
+0x6F0000,0x730000,ealibs_mixed,split,EA RealCore 6.23 file system + On2 VP6 codec (~0x70CC77) + likely zlib 1.1.4/libjpeg; needs splitting
+0x730000,0x75BBF0,ea_net,stub,EA online/socket library; servers are dead
+0x75BBF0,0x771303,crt,replace,import thunks + MSVC 7.0 static C runtime (entry 0x75BCC7)
+0x771303,0x77A5F6,eh_funclets,auto,compiler-generated EH handlers and unwind funclets
+0x77A5F6,0x783000,static_init,auto,dynamic initializers and atexit stubs for globals

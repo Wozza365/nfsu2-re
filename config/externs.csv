@@ -1,0 +1,5 @@
+# mangled symbol,address  (manual mappings the loader build cannot work out by itself)
+# global operator delete: called by the scalar deleting destructor at 0x4A8F20; operator new is 0x575620
+??3@YAXPAX@Z,0x575630
+# s734 destructor: the game's MenuCarInstance_10 destructor (0x4017F0) is add ecx,0x374 / jmp 0x4022C0
+??1s734@@QAE@XZ,0x4022C0
